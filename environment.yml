@@ -1,0 +1,58 @@
+name: finbert-sec-env
+channels:
+  - conda-forge
+  - pytorch
+  - defaults
+dependencies:
+  # Core
+  - python=3.12
+  - pip
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - scikit-learn
+  - tqdm
+  - regex
+  - requests
+  - python-dotenv
+
+  # NLP & Transformers
+  - spacy
+  - datasets
+  - transformers
+  - tokenizers
+  - huggingface_hub
+  - safetensors
+  - pytorch
+  - torchvision
+  - torchaudio
+  - cpuonly  # remove if you use GPU
+
+  # Data handling
+  - pyarrow
+  - openai
+  - chardet
+
+  # Jupyter / dev tools
+  - jupyterlab
+  - ipykernel
+  - ipywidgets
+  - nbstripout
+
+  # Optional utility
+  - pyyaml
+  - typer
+  - rich
+
+  # pip-installed packages (latest)
+  - pip:
+      - matplotlib==3.10.6
+      - seaborn==0.13.2
+      - openai==1.102.0
+      - python-dotenv==1.1.1
+      - nbstripout==0.8.1
+      - en_core_web_sm @ https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
+      - tokenizers>=0.15,<0.20
+      - transformers>=4.40
