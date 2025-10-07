@@ -7,13 +7,10 @@ This model aims to analyze the sentiment of SEC press releases, particularly enf
 
 To examine the model, as well as all code associated, run `Finbert-finetuned.ipynb` in Google Colab or your local environment by cloning this repository. 
 
----
-
 ## Notes on Model Training
 - The model is trained using a dataset full of predictions generated from the original SEC press release parquet file using FinBERT.  
 - Only high-confidence predictions (> 95) are retained to improve data reliability.
 
----
 
 ## Files Included in This Repository
 - **Finbert-finetuned.ipynb:** Jupyter notebook used to train FinBERT and produce the required datasets.  
