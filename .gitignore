@@ -1,17 +1,26 @@
-# Ignore temporary training outputs
-temp/
-
-# Ignore model weights and checkpoints
-*.bin
-*.pt
-*.safetensors
-
-# Ignore environment folders and caches
+# Ignore Python cache and environment files
 __pycache__/
 *.pyc
-.env/
-.venv/
-.DS_Store
+*.pyo
+*.pyd
 
-# Optional: notebooks’ checkpoints
+# Ignore model checkpoints and large binaries
+finbert-sentiment-sec-press-releases/
+*.bin
+*.safetensors
+
+# Ignore training temp folders and logs
+temp/
+wandb/
+runs/
+
+# Ignore environment and dependency files
+.env
+*.log
+
+# Ignore Jupyter notebook checkpoints
 .ipynb_checkpoints/
+
+# Ignore system and IDE files
+.DS_Store
+.vscode/
