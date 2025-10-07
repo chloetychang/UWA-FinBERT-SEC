@@ -1,0 +1,17 @@
+# Ignore temporary training outputs
+temp/
+
+# Ignore model weights and checkpoints
+*.bin
+*.pt
+*.safetensors
+
+# Ignore environment folders and caches
+__pycache__/
+*.pyc
+.env/
+.venv/
+.DS_Store
+
+# Optional: notebooks’ checkpoints
+.ipynb_checkpoints/
