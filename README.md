@@ -13,7 +13,7 @@ To examine the model, as well as all code associated, run `Finbert-finetuned.ipy
 
 
 ## Files Included in This Repository
-- **Finbert-finetuned.ipynb:** Jupyter notebook used to train FinBERT and produce the required datasets.  
+- **FinBERT-finetuned.ipynb:** Jupyter notebook used to train FinBERT and produce the required datasets.  
 - **environment.yml:** Conda environment file for replicating the environment used in training.  
 - **sec_press_release_with_avg_sentiment.csv:** Contains `unique_id`, `text_pr`, `avg_score`, and `avg_label`.
     - unique_id (index)
