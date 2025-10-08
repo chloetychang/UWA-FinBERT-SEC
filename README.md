@@ -1,5 +1,5 @@
-# UWA-FinBert-SEC-Press-Releases
-Finetuning FinBert on SEC Press Releases
+# UWA-FinBERT-SEC-Press-Releases
+Finetuning FinBERT on SEC Press Releases
 - Starting Point: https://github.com/Incredible88/FinBERT-FOMC
 
 ## Introduction to this Model
