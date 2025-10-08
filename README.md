@@ -18,8 +18,8 @@ To examine the model, as well as all code associated, run `Finbert-finetuned.ipy
 - **sec_press_release_with_avg_sentiment.csv:** Contains `unique_id`, `text_pr`, `avg_score`, and `avg_label`.
     - unique_id (index)
     - text_pr (the original press release text)
-    - avg_score (the average of all numerical scores obtained from the sentences in the same row of the original dataframe)
     - avg_label (the sentiment label assigned based on the avg_score) 
+    - avg_score (the average of all numerical scores obtained from the sentences in the same row of the original dataframe)
 - **sec_press_release_with_avg_sentiment.parquet:** Parquet version of the above CSV.  
 - **sec_sentences_with_ids.csv:** Contains `unique_id` and `sentence` for each press release. 
     - unique_id (index)
