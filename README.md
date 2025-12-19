@@ -9,7 +9,7 @@ To examine the model, as well as all code associated, run `Finbert-finetuned.ipy
 
 ## Notes on Model Training
 - The model is trained using a dataset full of predictions generated from the original SEC press release parquet file using FinBERT.  
-- Only high-confidence predictions (> 95) are retained to improve data reliability.
+- Only high-confidence predictions (> 95%) are retained to improve data reliability.
 
 
 ## Files Included in This Repository
